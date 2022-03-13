@@ -10,7 +10,7 @@ export default {
     headerText: "#424A48",
     headerText2: "#F8D880",
     primary1: "hsl(204,23.8%,95.9%)",
-    background1: "red", //TODO:global background color
+    background1: "#FFF7E0", //TODO:global background color
     cardBackground: "#FFF7E0",
     cardText: "#424A48",
     accent1: "hsl(34.9,98.6%,72.9%)",

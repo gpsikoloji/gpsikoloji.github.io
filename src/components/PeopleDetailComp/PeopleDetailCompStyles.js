@@ -45,6 +45,12 @@ export const Description = styled.h3`
   color: ${(props) => props.theme.colors.cardText};
   padding: 0.5rem 0;
   font-size: 2rem;
+  & ul {
+    padding-left: 3rem;
+    & li {
+      line-height: 3rem;
+    }
+  }
   @media ${(props) => props.theme.breakpoints.lg} {
     font-size: 2rem;
   }

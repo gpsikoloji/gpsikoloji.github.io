@@ -21,20 +21,41 @@ export const Section = styled.section`
 `;
 
 export const SectionTitle = styled.h2`
-  font-weight: 800;
+  font-weight: 600;
   font-size: ${(props) => (props.main ? "65px" : "56px")};
   line-height: ${(props) => (props.main ? "72px" : "67px")};
   width: max-content;
   max-width: 100%;
+  // linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)
   background: linear-gradient(
-    121.57deg,
-    ${(props) => props.theme.colors.headerText} 18.77%,
-    ${(props) => props.theme.colors.headerText2} 60.15%
+    -135deg,
+    green,
+    #ffffff,
+    ${(props) => props.theme.colors.headerText2}
   );
+  // background: linear-gradient(
+  //   121.57deg,
+  //   #ffffff 18.77%,
+  //   ${(props) => props.theme.colors.headerText2} 60.15%
+  // );
+  animation: gradient 5s ease infinite;
+  background-size: 300% 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
   padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: ${(props) => (props.main ? "56px" : "48px")};

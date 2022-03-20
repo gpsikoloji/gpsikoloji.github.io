@@ -11,7 +11,6 @@ export const CardContainer = styled.div`
 
 export const BlogCard = styled.div`
   border-radius: 10px;
-  overflow: hidden;
   text-align: center;
   width: 100%;
   height: 100%;
@@ -47,4 +46,7 @@ export const Img = styled.img`
   cursor: pointer;
   object-fit: cover;
   overflow: hidden;
+  box-shadow: -1px -1px 22px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px -1px 22px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 22px 0px rgba(0, 0, 0, 0.75);
 `;

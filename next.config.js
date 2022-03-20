@@ -5,6 +5,7 @@ module.exports = {
   ) {
     return {
       "/": { page: "/" },
+      "/hakkimizda": { page: "/hakkimizda" },
       "/iletisim": { page: "/iletisim" },
       "/hizmetlerimiz": { page: "/hizmetlerimiz" },
       "/uzmanlarimiz": { page: "/uzmanlarimiz" },

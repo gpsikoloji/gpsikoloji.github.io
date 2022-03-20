@@ -38,7 +38,7 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>
-        <NavLink href="/">Hakkımızda</NavLink>
+        <NavLink href="/hakkimizda">Hakkımızda</NavLink>
       </li>
       <li>
         <NavLink href="/uzmanlarimiz">Uzmanlarımız</NavLink>

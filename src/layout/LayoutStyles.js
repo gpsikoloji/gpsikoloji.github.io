@@ -7,6 +7,6 @@ export const Container = styled.div`
   margin: auto;
   padding-top: 110px;
   @media ${(props) => props.theme.breakpoints.md} {
-    padding-top: 160px;
+    padding-top: 130px;
   }
 `;

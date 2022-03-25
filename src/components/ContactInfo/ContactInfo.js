@@ -20,9 +20,9 @@ const ContactInfo = () => {
             <AiFillMail size="3rem" />
             <LinkText>gpsikoloji06@gmail.com</LinkText>
           </LinkItem>
-          <LinkItem href="tel:+90545454554">
+          <LinkItem href="tel:+905332293256">
             <AiFillPhone size="3rem" />
-            <LinkText>0 545 454 5554</LinkText>
+            <LinkText>+90 533 229 3256</LinkText>
           </LinkItem>
           <LinkItem>
             <LinkText>

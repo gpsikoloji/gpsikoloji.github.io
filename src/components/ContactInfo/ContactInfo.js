@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillPhone, AiFillMail, AiOutlineEnvironment } from "react-icons/ai";
+import { AiFillPhone, AiFillMail, AiOutlineWhatsApp } from "react-icons/ai";
 import { MdMap } from "react-icons/md";
 
 import {
@@ -23,6 +23,10 @@ const ContactInfo = () => {
           <LinkItem href="tel:+905332293256">
             <AiFillPhone size="3rem" />
             <LinkText>+90 533 229 3256</LinkText>
+          </LinkItem>
+          <LinkItem href="https://wa.me/+905332293256" target="_blank">
+            <AiOutlineWhatsApp size="3rem" />
+            <LinkText>WhatsApp</LinkText>
           </LinkItem>
           <LinkItem>
             <LinkText>
